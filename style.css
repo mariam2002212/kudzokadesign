@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 90%;
+    height: 2300px;
+    background-image: url(blue_bg.png),url(waves.png),url(second_section_.png),url(bottom.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px, 99% 230px, 65% 500px, 120% 1000px;
+    background-position: top, -2530% 22%, 60% 36%,50% 135% ;
+}
+/*styling Navbar*/
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+.leftnav{
+    background: none;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftnav a{
+    margin: 10px;
+    text-decoration: none;
+}
+.active{
+    border-bottom: 3px solid purple;
+}
+.leftnav a img{
+    width: 110px;
+    border-radius: 50%;
+}
+.rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 80px;
+}
+
+.rightnav h6{
+    position: absolute;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of navbar styling*/
+
+/*start first section styling*/
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+
+.leftdiv{
+ margin-right: 40px;
+}
+
+.leftdiv p{
+    color: gray;
+    font-size: 18px;
+}
+.leftdiv h1{
+    color: rgb(99, 97, 97);
+    font-size: 36px;
+}
+span{
+    color: purple;
+}
+.rightdiv{
+  
+    position: relative;
+    width: 600px;
+    height: 300px;
+}
+.rightdiv .landing{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    width: 750px;
+    height: 600px;
+}
+.rightdiv .man{
+    position: absolute;
+    top: -70px;
+    left: 180px;
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+}
+.rightdiv .clouds{
+    position: absolute;
+    top: 260px;
+    left: 140px;
+    width: 400px;
+    height: 150px;
+    z-index: 3;
+}
+/*end of first section styling*/
+/*start second section styling*/
+
+.sec2 .motorcyle{
+    position: absolute;
+      top: 720px; 
+      width: 400px;
+      text-align: center;
+    left:40px ;
+}
+.sec2 .motorcyle .textmotor{
+    position: absolute;
+    width: 290px;
+    left: 50px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.textclock {
+    margin-top: 5px;
+}
+.textpercent{
+    margin-top: 15px;
+}
+.textmotor h4 ,.textclock h4 ,  .textpercent h4, .midtext h4{
+    color: rgb(99, 97, 97);
+}
+.textmotor p ,.textclock p , .textpercent p, .midtext p{
+    color: gray;
+}
+.sec2 .clock{
+    position: relative;
+      top:340px;
+      left: 520px;
+      width: 340px;  
+      text-align: center;
+}
+
+.sec2 .percent{
+    position: relative;
+      top:340px;
+      left: 830px;
+      width: 340px;
+      text-align: center;
+}
+.whykudzoka{
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+.whykudzoka img{
+    width: 350px;
+    left: 50px;
+}
+.textkudzoka{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    color: white;
+}
+.textkudzoka h6{
+    font-size: 16px;
+}
+.textkudzoka p{
+    font-size: 40px;
+}
+/*end of second section styling*/
+/*start third section styling*/
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 280px;
+    width: 830px;
+}
+.div3{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+.div1,.div5{
+    margin-top: 40px;
+}
+.div2, .div4{
+    margin-top: 140px;
+    color:rgb(99, 97, 97) ;
+}
+/*end of third section styling*/
+/*start of last section styling*/
+.lastsec{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+.lastleft{
+    margin-top: 400px;
+    margin-left: 70px;
+}
+.apps1{
+    display: flex;
+    margin-left: 18px;
+}
+.apps2{
+    width: 150px;
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-bottom: 0;
+}
+#one img,#two img{
+    width: 25px;
+}
+#three img{
+    width: 15px;
+}
+#two,#three{
+    padding-left: 20px;
+}
+#one{
+    margin-left: 7px;
+}
+
+.text{
+    margin-left: 5px;
+}
+
+.apps1 .store,.store2{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 8px;
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+}
+.store img,.store2 img{
+    width: 20px;
+}
+.text p1{
+    color: blueviolet;
+    font-size: 12px;
+}
+#nav2 a{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-left:35px ;
+}
+#home{
+    margin-left: -10px;
+}
+.lastright img{
+    position: relative;
+    width: 650px;
+    height: 550px;
+    top: 90px;
+    left:75px;
+}
+/*end of last section styling*/
